@@ -1,0 +1,13 @@
+spring:
+  data:
+    redis:
+      host: 192.168.138.135
+      port: 6379
+      database: 2
+      lettuce:
+        pool:
+          max-idle: 8
+          max-wait: -1ms
+          max-active: 8
+          min-idle: 1
+      timeout: PT10s #连接超时时间

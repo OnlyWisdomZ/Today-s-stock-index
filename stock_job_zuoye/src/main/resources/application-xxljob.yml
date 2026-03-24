@@ -1,0 +1,15 @@
+logging:
+  config: classpath:logback.xml
+# XXJOB参数配置
+xxl:
+  job:
+    accessToken:
+    admin:
+      addresses: http://192.168.138.135:8093/xxl-job-admin
+    executor:
+      appname: huang-stock-executor
+      address:
+      ip:
+      port: 6666
+      logpath: .\logs
+      logretentiondays: 30
